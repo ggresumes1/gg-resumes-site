@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume Builder</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background: #e8f5e9;
+    }
+    .hero h1 {
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      background: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .services, .sample, footer {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .services h2, .sample h2 {
+      margin-bottom: 20px;
+    }
+    .service-item {
+      margin: 20px 0;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+    }
+    footer a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .social-icons svg {
+      width: 24px;
+      height: 24px;
+      fill: #fff;
+      margin: 0 5px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Resume Builder</h1>
+  <nav>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#sample">Sample Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Create Your Professional Resume Today</h1>
+  <p>Easy, Fast, and Effective Resume Building Tools.</p>
+  <a href="#" class="btn" onclick="alert('Start creating your resume!')">Get Started</a>
+</section>
+
+<section id="services" class="services">
+  <h2>Our Services</h2>
+  <div class="service-item">
+    <h3>Custom Templates</h3>
+    <p>Choose from a variety of professional resume templates.</p>
+  </div>
+  <div class="service-item">
+    <h3>Step-by-Step Guidance</h3>
+    <p>Get tips and examples to write impactful resumes.</p>
+  </div>
+  <div class="service-item">
+    <h3>Download & Share</h3>
+    <p>Export your resume in multiple formats and share easily.</p>
+  </div>
+</section>
+
+<section id="sample" class="sample">
+  <h2>Sample Resume</h2>
+  <img src="https://via.placeholder.com/600x400" alt="Sample Resume" style="max-width:100%; height:auto;">
+</section>
+
+<footer id="contact">
+  <p>Contact us at: support@resumebuilder.com</p>
+  <div class="social-icons">
+    <a href="#"><svg role="img" aria-label="Twitter" viewBox="0 0 24 24"><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.897-.959-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.734.199-1.527.232-2.224.084.631 1.953 2.445 3.377 4.604 3.418-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.557 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></a>
+    <a href="#"><svg role="img" aria-label="LinkedIn" viewBox="0 0 24 24"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11.75 20h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764 0-.975.784-1.764 1.75-1.764s1.75.789 1.75 1.764c0 .974-.784 1.764-1.75 1.764zm13.25 12.268h-3v-5.604c0-1.337-.025-3.061-1.865-3.061-1.867 0-2.154 1.459-2.154 2.965v5.7h-3v-11h2.885v1.507h.041c.401-.76 1.379-1.561 2.839-1.561 3.037 0 3.6 2.001 3.6 4.6v6.454z"/></svg></a>
+    <a href="#"><svg role="img" aria-label="YouTube" viewBox="0 0 24 24"><path d="M19.615 3.184C21.105 3.3 22 4.26 22 5.695v12.609c0 1.436-.894 2.396-2.386 2.512-3.52.286-7.04.286-10.56 0C5.895 20.7 5 19.74 5 18.304V5.695c0-1.436.895-2.396 2.386-2.512 3.52-.286 7.04-.286 10.56 0zM10 8v8l6-4-6-4z"/></svg></a>
+  </div>
+</footer>
+
+</body>
+</html>
